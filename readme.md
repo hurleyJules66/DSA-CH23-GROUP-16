@@ -6,6 +6,9 @@ A simplified social networking platform implementing core data structures and al
 ## 🎯 Problem Statement
 To design and implement a mini social network that demonstrates key data structures including graphs, hash tables, stacks, queues, and heaps while providing essential social networking features like friend connections, posts, and recommendations.
 
+🎥 Demo Video
+https://youtu.be/Rw_RDRZrTuI?si=B2cRpq-lRl4E33sL
+
 ## ✨ Features
 
 ### Core Features
@@ -72,10 +75,6 @@ bash
 # Windows
 move DSA-CH23-GROUP-16 C:\xampp\htdocs\
 
-# Mac
-mv DSA-CH23-GROUP-16 /Applications/XAMPP/htdocs/
-Start XAMPP Services
-
 Open XAMPP Control Panel
 
 Start Apache and MySQL
@@ -104,11 +103,12 @@ Access Application
 
 Open browser: http://localhost/DSA-CH23-GROUP-16/
 
-Sample Login Credentials
+
+Sample Login Credential
 Username	Password	Role
-john_doe	password	Demo User 1
-jane_smith	password	Demo User 2
-bob_wilson	password	Demo User 3
+john_doe	password	Demo 
+
+
 📊 Sample Input/Output
 Register New User
 Input:
@@ -160,28 +160,38 @@ Output:
 
 text
 ↩️ Last friend request undone!
+
+
 👥 Team Members & Roles
 #	Name	Registration Number	Role	Responsibilities
+
 1	Hurley Jules (Leader)	BSCCS/2025/56368	Project Lead & Backend Developer	• Database design
 • Core PHP logic
 • Authentication system
 • GitHub repository management
+
 2	Clinton Kiplagat	BSCCS/2025/43643	Frontend Developer	• UI/UX design
 • CSS styling
 • HTML structure
 • Responsive design
+
 3	Mulki Issack	BSCCS/2025/39591	Database Specialist	• SQL queries
 • Data structure implementation
 • Performance optimization
-• Testing
+• Video demo preparation
+
+
 4	Sumeya Mohamed	BSCCS/2025/43709	Documentation & Testing	• System design documentation
 • Test cases
 • User manual
-• Video demo preparation
+• Testing
+
 5	Filsan Farah	BSCCS/2025/59799	Quality Assurance	• Bug testing
 • Edge case validation
 • Code review
 • Benchmark testing
+
+
 📈 Complexity Analysis
 Operation	Data Structure	Time Complexity	Space Complexity
 User Lookup	Hash Table (users table)	O(1) average	O(n)
@@ -226,12 +236,15 @@ Expected: Last request removed from stack
 
 Status: ✅ Pass
 
+
 🔧 Benchmark Results
 Operation	Sample Size	Average Time
 User Login	1000 users	0.02s
 Load Feed	100 posts	0.05s
 Mutual Friends	50 friends	0.03s
 Friend Search	1000 users	0.01s
+
+
 📁 Project Structure
 text
 DSA-CH23-GROUP-16/
@@ -256,15 +269,13 @@ DSA-CH23-GROUP-16/
 ├── sql/
 │   └── database.sql          # Database schema
 └── README.md                 # This file
-🎥 Demo Video
-[YouTube Demo Link - To be added]
+
 
 📚 References
 Jain, H. (2018). Problem Solving in Data Structures and Algorithms Using C++. Chapter 23: System Design.
-
 PHP Documentation: https://www.php.net/docs.php
-
 MySQL Documentation: https://dev.mysql.com/doc/
+
 
 📝 License
 This project is created for educational purposes as part of Data Structures and Algorithms course.
